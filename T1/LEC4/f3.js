@@ -14,4 +14,7 @@ var ps= require("fs");
 
 // ps.renameSync("node/write.txt","node/ReadWrite.txt");
 
-ps.copyFileSync("node/ReadWrite.txt","node/WriteRead.txt");
+// ps.copyFileSync("node/ReadWrite.txt","node/WriteRead.txt");
+
+// ps.unlinkSync("node/ReadWrite.txt");
+// ps.unlinkSync("node/WriteRead.txt");
