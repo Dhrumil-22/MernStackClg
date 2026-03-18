@@ -30,6 +30,7 @@ console.log(data.toString());
 \`\`\`
 
 **Method 2:**
+
 \`\`\`javascript
 data = ps.readFileSync("node/write.txt", "utf-8");
 console.log(data);
