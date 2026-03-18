@@ -29,5 +29,5 @@ ps.renameSync("node/write.txt","node/ReadWrite.txt");
 ps.copyFileSync("node/ReadWrite.txt","node/WriteRead.txt");
 
 ### 8. DELETE FILE
-ps.unlinkSync("node/ReadWrite.txt");
+<small>ps.unlinkSync("node/ReadWrite.txt");</small>
 
