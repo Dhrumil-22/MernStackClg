@@ -68,8 +68,8 @@ ps.writeFile('test1.txt','hello',function(error)
             }
         })
 console.log("EXIT")
-# EXIT
-# Async program completed
+// EXIT
+//Async program completed
 ```
 #
 #### 2. Copy File
