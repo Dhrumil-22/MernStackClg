@@ -1,33 +1,51 @@
 # FS MODULE
 
-#  SYNTAX
+## Syntax
 
-## 1. INITALIZE FS MODULE 
-var ps= require("fs");  
+### 1. Initialize FS Module
+\`\`\`javascript
+var ps = require("fs");
+\`\`\`
 
-## 2. MAKE_DIRECTOPRY
-ps.mkdirSync("node")
+### 2. Make Directory
+\`\`\`javascript
+ps.mkdirSync("node");
+\`\`\`
 
-## 3. WRITE FILE
-ps.writeFileSync("node/write.txt","Hello JS!")
+### 3. Write File
+\`\`\`javascript
+ps.writeFileSync("node/write.txt", "Hello JS!");
+\`\`\`
 
-## 4. WIRTE MORE CONTENT SO APPEND FILE
-ps.appendFileSync("node/write.txt","Hello JS!")
+### 4. Append File
+\`\`\`javascript
+ps.appendFileSync("node/write.txt", "Hello JS!");
+\`\`\`
 
-## 5.1 READ FILE -METHOD 1
-data = ps.readFileSync("node/write.txt")
+### 5. Read File
+**Method 1:**
+\`\`\`javascript
+data = ps.readFileSync("node/write.txt");
 console.log(data.toString());
+\`\`\`
 
-## 5.2 READ FILE -METHOD 2
-data = ps.readFileSync("node/write.txt","utf-8")
+**Method 2:**
+\`\`\`javascript
+data = ps.readFileSync("node/write.txt", "utf-8");
 console.log(data);
+\`\`\`
 
-## 6. REANME FILE
-ps.renameSync("node/write.txt","node/ReadWrite.txt");
+### 6. Rename File
+\`\`\`javascript
+ps.renameSync("node/write.txt", "node/ReadWrite.txt");
+\`\`\`
 
-## 7. COPY FILE
-ps.copyFileSync("node/ReadWrite.txt","node/WriteRead.txt");
+### 7. Copy File
+\`\`\`javascript
+ps.copyFileSync("node/ReadWrite.txt", "node/WriteRead.txt");
+\`\`\`
 
-## 8. DELETE FILE
-<small>ps.unlinkSync("node/ReadWrite.txt");</small>
-
+### 8. Delete File
+\`\`\`javascript
+ps.unlinkSync("node/ReadWrite.txt");
+\`\`\`
