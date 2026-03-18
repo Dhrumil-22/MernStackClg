@@ -1,14 +1,10 @@
 
 # FS MODULE
 
-<<<<<<< HEAD
 ## Syntaxz
 
 # SYNC
 #
-=======
-## Syntax
->>>>>>> f569d12df44d4458dd17143c1bda0bf180001cbe
 #### 1. Initialize FS Module
 ```javascript
 var ps = require("fs");
@@ -56,7 +52,6 @@ ps.copyFileSync("node/ReadWrite.txt", "node/WriteRead.txt");
 ps.unlinkSync("node/ReadWrite.txt");
 ```
 # 
-<<<<<<< HEAD
 
 # ASYNC
 #
@@ -92,5 +87,3 @@ q2.writeFile('source.txt',"hello",(error)=>{
     });
 });
 ```
-=======
->>>>>>> f569d12df44d4458dd17143c1bda0bf180001cbe
