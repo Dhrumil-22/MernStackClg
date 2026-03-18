@@ -1,0 +1,53 @@
+<!-- write a code to perform the task as asked below
+1. add three button.
+2. increse button to inc the font .it should stop incr when th e font size reaches to 200 px or stoop button is cliked.
+decrese button to dec the font. it should stop dec when the font size reaches to 20 px or stop button is click.
+3.stop btn to stop inc or dec.it shuld perform at the interval of 1 sec and default font size is 50px -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a0" >Hello</p>
+    <button onclick="inc()">increse</button>
+    <button onclick="dec()">Decrese</button>
+    <button onclick="stop()">Stop</button>
+    
+    <script>
+        let font = 50 ;
+        document.getElementById("a0").style.fontSize=font+"px";
+
+        function inc(){
+           test = setInterval(function(){
+                    if(font<200)
+                    {
+                        fun(font++)
+                    }
+                },1000);
+            }
+            
+        function dec(){
+            test = setInterval(function(){
+                    if(font>20)
+                    {
+                        fun(font--)
+                    }
+                },1000);
+            }
+            
+            function stop(){
+                clearInterval(test)
+            }
+            
+            function fun(size){
+                document.getElementById("a0").style.fontSize=size+"px";
+            }
+        
+
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,43 @@
+<!-- Display content on browser after 5 second -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a0"></p>
+    <p id="a1"></p>
+    <p id="a2"></p>
+    <p id="a3"></p>
+    <p id="a4"></p>
+    <script>
+        const a0 = function(){
+        document.getElementById("a0").innerHTML="Waiting"
+        }
+        const a1 = function(){
+        document.getElementById("a1").innerHTML="Display content on browser after 1 second"
+        }
+        const a2 = function(){
+        document.getElementById("a2").innerHTML="Display content on browser after 2 second"
+        }
+        const a3 = function(){
+        document.getElementById("a3").innerHTML="Display content on browser after 3 second"
+        }
+        const a4 = function(){
+        document.getElementById("a4").innerHTML="Display content on browser after 4 second"
+        }
+        setTimeout(a0,500)
+        setTimeout(a1,1000)
+        setTimeout(a2,2000)
+        setTimeout(a3,3000)
+        setTimeout(a4,4000)
+
+    
+
+    </script>
+</body>
+</html>
+

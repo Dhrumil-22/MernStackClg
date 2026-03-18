@@ -1,0 +1,33 @@
+<!-- iniatlize two variable and inc both the var each time and disple the addd of both the varibalee at interval of 1 sec -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="a0"></p>
+    <button onclick="stop()">buttons</button>
+  
+    <script>
+        let a = 2, b = 5 ;
+        // setInterval(function(){
+        //     document.getElementById("a0").innerHTML=++a + ++b;
+        // },1000);
+
+
+        test =  setInterval(() => {
+            document.getElementById("a0").innerHTML=++a + ++b;
+        }, 1000);
+
+        function stop(){
+            clearInterval(test)
+        }
+
+
+    </script>
+</body>
+</html>
+
