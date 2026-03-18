@@ -2,9 +2,26 @@
 
 ##  SYNTAX
 
-> [!MAKE_DIRECTOPRY]
-> var ps= require("fs");
-> ps.mkdirSync("node")
+### INITALIZE FS MODULE 
+var ps= require("fs");\
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
+### MAKE_DIRECTOPRY
+ps.mkdirSync("node")
+
+### WRITE FILE
+ps.writeFileSync("node/write.txt","Hello JS!")
+
+### WIRTE MORE CONTENT SO APPEND FILE
+ps.appendFileSync("node/write.txt","Hello JS!")
+
+### READ FILE -METHOD 1
+data = ps.readFileSync("node/write.txt")
+console.log(data.toString());
+
+### READ FILE -METHOD 2
+data = ps.readFileSync("node/write.txt","utf-8")
+console.log(data);
+
+### REANME FILE
+ps.renameSync("node/write.txt","node/ReadWrite.txt");
+

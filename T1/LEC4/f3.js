@@ -6,5 +6,10 @@ var ps= require("fs");
 
 // ps.appendFileSync("node/write.txt","Hello JS!")
 
-data = ps.readFileSync("node/write.txt")
-console.log(data)
+// data = ps.readFileSync("node/write.txt");
+// console.log(data.toString());
+
+// data = ps.readFileSync("node/write.txt","utf-8");
+// console.log(data);
+
+ps.renameSync("node/write.txt","node/ReadWrite.txt");
