@@ -2,6 +2,6 @@
 
 ##  SYNTAX
 
-> [!CRETE DIRECTORY]
+>[!CRETE DIRECTORY]
 >var ps= require("fs");
 >ps.mkdirSync("node")
