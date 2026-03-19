@@ -9,7 +9,7 @@
 
 
 var q1 = require("fs");
-q1.mkdirSync("StudentData");
+// q1.mkdirSync("StudentData");
 
 let student = [
     {'name':'ABC','marks':80},
@@ -23,3 +23,10 @@ let data = q1.readFileSync("StudentData/students.json","utf-8");
 data1 = JSON.parse(data);
 console.log(data1);
 
+for (s of data1)
+{
+    if(s.marks>75)
+    {
+        console.log(s.name+" "+s.marks)
+    }
+}
