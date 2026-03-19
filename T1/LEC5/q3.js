@@ -18,19 +18,19 @@ path2 = pm.basename("C:/Users/91940/Downloads/@ COLLAGE/LJIET/SEM4/FSD2/T1/LEC5/
 
 ps.mkdir(path,(error)=>{
     if (error) throw error;
-    console.log("Folder created")
+    console.log("Folder created");
 
     ps.writeFile(path+"/"+path2,"this is Q3",(error)=>{
         if (error) throw error;
-        console.log("file created")
+        console.log("file created");
 
         ps.copyFile(path+"/"+path2,path+"/temp.txt",(error)=>{
             if(error)throw error;
-            console.log("file copied")
-            
+            console.log("file copied");
+
             ps.unlink(path+"/"+path2,(error)=>{
                 if(error) throw error;
-                console.log("file Deleted")
+                console.log("file Deleted");
             });
         });
     });
