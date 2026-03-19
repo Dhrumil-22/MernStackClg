@@ -1,7 +1,7 @@
 # PATH MODULE
 
 
-#### 1. Initalize PATH module
+### Initalize PATH module
 ```Javascript
 var pm = require("path")
 ```
