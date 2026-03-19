@@ -30,3 +30,6 @@ for (s of data1)
         console.log(s.name+" "+s.marks)
     }
 }
+
+q1.unlinkSync("StudentData/students.json")
+q1.rmdirSync("StudentData")

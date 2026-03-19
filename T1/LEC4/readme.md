@@ -81,9 +81,12 @@ q2.writeFile('source.txt',"hello",(error)=>{
         if (error) throw error;
         console.log("file copied");
         q2.readFile('destination.txt',"utf-8",(error,data1) =>{
-                if (error) throw error;
+            if (error) throw error;
                 console.log("data from destination file : ",data1);
             });
     });
 });
 ```
+
+# PATH[PM] MODULE
+
