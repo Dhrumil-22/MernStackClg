@@ -8,3 +8,18 @@
 
 
 
+var q1 = require("fs");
+q1.mkdirSync("StudentData");
+
+let student = [
+    {'name':'ABC','marks':80},
+    {'name':'DEF','marks':90},
+    {'name':'GHI','marks':60}
+];
+
+q1.writeFileSync("StudentData/students.json",JSON.stringify(student));
+
+let data = q1.readFileSync("StudentData/students.json","utf-8");
+data1 = JSON.parse(data);
+console.log(data1);
+
