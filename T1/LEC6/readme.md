@@ -7,6 +7,13 @@ const eventemiter = require("events");
 ```
 
 #### 1. emit
+##### 1. Without 
+```Javascript
+ee.on('start',() => {
+    console.log("event Started");
+});
+ee.emit('start');
+```
 ```Javascript
 ee.on('start',() => {
     console.log("event Started");
