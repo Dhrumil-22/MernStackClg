@@ -12,7 +12,7 @@ ee.on('write',function(){
     });
 });
 ee.on('append',function(){
-    ps.appendFile('abc.txt','Byee',(err)=>{
+    ps.appendFile('abc.txt',' Byee',(err)=>{
         if(err) throw err;
         console.log("File Append");
         ee.emit("read")
