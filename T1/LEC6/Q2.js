@@ -7,10 +7,10 @@ const eventemmiter = require('events');
 const ee = new eventemmiter();
 
 var fun1 = function(msg){
-    console.log("Msg from fun1:"+msg);
+    console.log("Msg from fun1 : "+msg);
 }
 var fun2 = function(msg){
-    console.log("Msg from fun2:"+msg);
+    console.log("Msg from fun2 : "+msg);
 }
 
 ee.on('myEvent1',fun1);
