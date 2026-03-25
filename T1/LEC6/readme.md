@@ -31,22 +31,45 @@ ee.emit('start');
 ```
 #### 3. removeListener
 ```Javascript
-path2 = pm.extname("C:/Users/91940/Downloads/@ COLLAGE/LJIET/SEM4/FSD2/T1/LEC5/h1.html");
-console.log("3 "+path2);
+const eventemmiter = require('events');
+const ee = new eventemmiter();
+
+var fun1 = function(msg){
+    console.log("Msg from fun1 : "+msg);
+}
+var fun2 = function(msg){
+    console.log("Msg from fun2 : "+msg);
+}
+
+ee.on('myEvent1',fun1);
+ee.on('myEvent2',fun2);
+ee.on('myEvent1',fun1);
+ee.on('myEvent2',fun2);
+
+ee.removeListener('myEvent2',fun2);
+ee.removeAllListeners('myEvent1');
+ee.emit('myEvent2','LJUniversity');
+ee.emit('myEvent1','LJIET');
 ```
 #### 4. removeAllListener
 ```Javascript
-path3 = pm.parse("C:/Users/91940/Downloads/@ COLLAGE/LJIET/SEM4/FSD2/T1/LEC5/h1.html");
-console.log(path3);
-```
-```Javascript
+const eventemmiter = require('events');
+const ee = new eventemmiter();
 
-if (path3.ext = '.html')
-{
-    console.log("5. allowed")
+var fun1 = function(msg){
+    console.log("Msg from fun1 : "+msg);
 }
-else{
+var fun2 = function(msg){
+    console.log("Msg from fun2 : "+msg);
+}
 
-    console.log("6. Not allowed")
-}
+ee.on('myEvent1',fun1);
+ee.on('myEvent2',fun2);
+ee.on('myEvent1',fun1);
+ee.on('myEvent2',fun2);
+
+ee.removeListener('myEvent2',fun2);
+ee.removeAllListeners('myEvent1');
+ee.emit('myEvent2','LJUniversity');
+ee.emit('myEvent1','LJIET');
 ```
