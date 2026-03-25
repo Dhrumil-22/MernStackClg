@@ -25,4 +25,4 @@ ee.on('read',function(){
     });
 });
 
-ee.emit('write')
+ee.emit('write');
