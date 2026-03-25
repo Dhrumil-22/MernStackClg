@@ -8,8 +8,10 @@ const eventemiter = require("events");
 
 #### 1. emit
 ```Javascript
-path = pm.dirname("C:/Users/91940/Downloads/@ COLLAGE/LJIET/SEM4/FSD2/T1/LEC5/h1.html");
-console.log("1 "+path);
+ee.on('start',() => {
+    console.log("event Started");
+});
+ee.emit('start');
 ```
 #### 2. on/addListener
 ```Javascript
