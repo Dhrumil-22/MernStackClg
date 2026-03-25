@@ -7,13 +7,22 @@ const eventemiter = require("events");
 ```
 
 #### 1. emit
-##### 1. Without 
+##### 1. Without Prameter
 ```Javascript
 ee.on('start',() => {
     console.log("event Started");
 });
 ee.emit('start');
 ```
+
+##### 2. With Prameter
+```Javascript
+ee.on('start',(start,end) => {
+    console.log('started from' + start + ' and '+ end);
+});
+ee.emit('start',1,100);
+```
+
 ```Javascript
 ee.on('start',() => {
     console.log("event Started");
