@@ -24,8 +24,10 @@ ee.emit('start',1,100);
 ```
 #### 2. on/addListener
 ```Javascript
-path1 = pm.basename("C:/Users/91940/Downloads/@ COLLAGE/LJIET/SEM4/FSD2/T1/LEC5/h1.html");
-console.log("2 "+path1);
+ee.on('start',() => {
+    console.log("event Started");
+});
+ee.emit('start');
 ```
 #### 3. removeListener
 ```Javascript
