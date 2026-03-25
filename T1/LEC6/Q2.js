@@ -19,6 +19,6 @@ ee.on('myEvent1',fun1);
 ee.on('myEvent2',fun2);
 
 ee.removeListener('myEvent2',fun2);
-ee.removeAllListener('myEvent1');
+ee.removeAllListeners('myEvent1');
 ee.emit('myEvent2','LJUniversity');
 ee.emit('myEvent1','LJIET');
