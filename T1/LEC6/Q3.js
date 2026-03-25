@@ -23,7 +23,7 @@ ee.removeListener('conn',listener1)
 let count2 = ee.listenerCount('conn')
 console.log('count 2 :'+count2);
 
-ee.removeAllListeners('conn',listener1)
+ee.removeAllListeners('conn')
 let count3 = ee.listenerCount('conn')
-console.log('count 2 :'+count3);
+console.log('count final :'+count3);
 ee.emit('conn');
