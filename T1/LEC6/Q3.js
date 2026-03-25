@@ -19,3 +19,8 @@ ee.on('conn',listener2)
 let count = ee.listenerCount('conn')
 console.log('count 1 :'+count);
 ee.emit('conn');
+
+ee.removeListener('conn',listener1)
+let count2 = ee.listenerCount('conn')
+console.log('count 2 :'+count2);
+ee.emit('conn');
