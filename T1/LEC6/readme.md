@@ -1,12 +1,12 @@
 # EVENT MODULE
 
 
-### Initalize PATH module
+### Initalize EVENT module
 ```Javascript
 const eventemiter = require("events");
 ```
 
-#### 1. emit
+### 1. EMIT
 ##### 1. Without Prameter
 ```Javascript
 ee.on('start',() => {
