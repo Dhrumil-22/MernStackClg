@@ -4,6 +4,7 @@
 ### Initalize EVENT module
 ```Javascript
 const eventemiter = require("events");
+const ee = new eventemmiter();
 ```
 
 ### 1. EMIT
