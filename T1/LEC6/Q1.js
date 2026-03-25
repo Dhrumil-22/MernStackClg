@@ -15,3 +15,4 @@ ee.on('data recived',()=>{
 })
 ee.emit('connection');
 console.log('thanks');
+
