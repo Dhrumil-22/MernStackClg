@@ -4,3 +4,14 @@
 // 3. finnaly print 'thanks' at the end of execution.
 
 
+const eventemmiter = require("events");
+const ee = new eventemmiter();
+ee.on('connection', () =>{
+    console.log("conncteion succesfully");
+    ee.emit('data recived');
+})
+ee.on('data recived',()=>{
+    console.log('data reciedved successfully');
+})
+ee.emit('connection');
+console.log('thanks');
