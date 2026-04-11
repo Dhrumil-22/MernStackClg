@@ -47,9 +47,9 @@
 //   },
 //   "homepage": "https://github.com/Dhrumil-22/MernStackClg#readme"
 // }
-
-
 // Is this OK? (yes) yes
+
+2. npm install express
 ```
 #
 #### 3. Write File
