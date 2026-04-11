@@ -86,3 +86,9 @@ pm conig set proxy http://:192.168.10.251:808
 ## FS MODULE
     ==> FS MODULE NODE JS NO PART CHE AE HELP KARE CHE FILE SYSTEM JODE WORK KARVA MATE 
     ==> AEMA DIRECTORY CREATE KARVI -> FILE CREATE KARVI -> READ KARVI -> UPDATE KARVI -> DELATE KARVI -> RENAME KARVI  -> DIRECTORY DELETE KARVI -> ETC 
+
+
+
+
+  ch 3 ma url http
+  ch 1 json object stingyfy and parse   sorting 

@@ -5,7 +5,6 @@
 // all oprations are async
 
 
-const { error } = require('console');
 var  q3 = require('fs');
 
 q3.writeFile('help.txt','you are creating a file.',(error)=>

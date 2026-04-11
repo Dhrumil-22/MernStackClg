@@ -6,6 +6,7 @@
 
 const eventemmiter = require("events");
 const ee = new eventemmiter();
+
 ee.on('connection', () =>{
     console.log("conncteion succesfully");
     ee.emit('data recived');

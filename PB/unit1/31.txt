@@ -1,0 +1,12 @@
+div1:
+Akshat
+Devang
+Dhrumil
+Mahek
+Ridham
+div2:
+bhatti
+bhuriya
+chauhan
+tumbadiya
+vaghela
