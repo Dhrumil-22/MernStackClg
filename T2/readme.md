@@ -3,7 +3,7 @@
 
 ##  WORK
 ```javascript
-// IT WORKS ON TOP ON THE "NODE"
+// IT IS FRAMEWORK WHICH WORKS ON TOP ON THE "NODE"
 ```
 ```javascript
 // IT USED TO CREATE SERVER AND API'S IN SIMPLEST WAY
@@ -12,9 +12,9 @@
 // MAIN THING IN EXPRESS IS ROUNTING AND MIDDLWARE 
 ```
 #
-#### 2. Make Directory
+#### 2. INSTALLATION
 ```javascript
-ps.mkdirSync("node");
+npm init
 ```
 #
 #### 3. Write File
