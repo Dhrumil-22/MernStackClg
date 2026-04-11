@@ -14,7 +14,42 @@
 #
 #### 2. INSTALLATION
 ```javascript
-npm init
+1. npm init
+// package name: (fsd2) 
+// version: (1.0.0) 
+// description: T2 phase
+// entry point: (index.js) 
+// test command: 
+// git repository: (https://github.com/Dhrumil-22/MernStackClg.git) 
+// keywords: 
+// author: 
+// license: (ISC) 
+// type: (commonjs) 
+// About to write to C:\Users\91940\Downloads\@ COLLAGE\LJIET\SEM4\FSD2\package.json:
+
+// {
+//   "name": "fsd2",
+//   "version": "1.0.0",
+//   "description": "T2 phase",
+//   "main": "index.js",
+//   "scripts": {
+//     "test": "echo \"Error: no test specified\" && exit 1"
+//   },
+//   "repository": {
+//     "type": "git",
+//     "url": "git+https://github.com/Dhrumil-22/MernStackClg.git"
+//   },
+//   "author": "",
+//   "license": "ISC",
+//   "type": "commonjs",
+//   "bugs": {
+//     "url": "https://github.com/Dhrumil-22/MernStackClg/issues"
+//   },
+//   "homepage": "https://github.com/Dhrumil-22/MernStackClg#readme"
+// }
+
+
+// Is this OK? (yes) yes
 ```
 #
 #### 3. Write File
