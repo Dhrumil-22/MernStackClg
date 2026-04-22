@@ -1,0 +1,23 @@
+{
+  "name": "fsd2",
+  "version": "1.0.0",
+  "description": "T2 phase",
+  "homepage": "https://github.com/Dhrumil-22/MernStackClg#readme",
+  "bugs": {
+    "url": "https://github.com/Dhrumil-22/MernStackClg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhrumil-22/MernStackClg.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
