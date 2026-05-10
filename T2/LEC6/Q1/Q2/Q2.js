@@ -12,7 +12,7 @@ app.post("/number",(req,res)=>{
     var a = req.body.num;
     if (a=="")
     {
-        res.send("pls entera number.<br> <a href='/'>Go Back</a>")
+        res.send("pls entera number. \n <a href='/'>Go Back</a>")
     }
     else if(isNaN(a)){
         res.send("invalid input. <br><a href='/'>Go Wabck</a>")
