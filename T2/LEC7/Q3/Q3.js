@@ -13,7 +13,7 @@ app.use(sess({
     resave : true , 
     saveUnintialzie : true , 
     secret : "007",
-}))
+})) 
 
 app.use(express.static(__dirname));
 

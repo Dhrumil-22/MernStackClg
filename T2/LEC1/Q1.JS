@@ -9,8 +9,8 @@ student = {
 
 app.get('/',function(req,res){
      res.set("content-type","application/json");
-     res.write(JSON.stringify(student));
-     res.end();
+    //  res.write(JSON.stringify(student));
     //  res.send(student);
-    //  res.json(student);
-    }).listen(5000)
+    //   res.end();
+     res.json(student);
+    }).listen(8000)

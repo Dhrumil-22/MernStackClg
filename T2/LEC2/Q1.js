@@ -9,30 +9,30 @@ var app = express()
 app.use(express.urlencoded({extended:true}));
 
 
-// app.get("/",(req,res)=>{
-//     res.send(`<form action="/login" method="post">
-//               <input type="text" name="uname"/>
-//               <button type="submit">Click</button>
-//               </form>`)
-// });
-
-// app.post("/login",(req,res)=>{
-//     const name = req.body.uname
-//     res.send("user created:"+name);
-// });
-// app.listen(8088);
-
-
-
 app.get("/",(req,res)=>{
-    res.send(`<form action="/login" method="get">
+    res.send(`<form action="/login" method="post">
               <input type="text" name="uname"/>
               <button type="submit">Click</button>
               </form>`)
 });
 
-app.get("/login",(req,res)=>{
-    const name = req.query.uname
+app.post("/login",(req,res)=>{
+    const name = req.body.uname
     res.send("user created:"+name);
 });
 app.listen(8088);
+
+
+
+// app.get("/",(req,res)=>{
+//     res.send(`<form action="/login" method="get">
+//               <input type="text" name="uname"/>
+//               <button type="submit">Click</button>
+//               </form>`)
+// });
+
+// app.get("/login",(req,res)=>{
+//     const name = req.query.uname
+//     res.send("user created:"+name);
+// });
+// app.listen(8088);

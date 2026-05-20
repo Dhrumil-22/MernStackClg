@@ -18,6 +18,7 @@ var mailoption = {
 
 trans.sendMail(mailoption,(err,info)=>{
     if(err){
+        
         console.log(err)
     }
 })

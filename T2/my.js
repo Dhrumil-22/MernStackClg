@@ -17,8 +17,9 @@ const app=express();
 
 app.set("view engine","ejs");
 const path = require("path")
-app.set("views",path.join(__dirname));
+app.set("views",path.json(__dirname));
 app.use(express.urlencoded({extended:true}));
+
 app.get("/",(req,res)=>
     {
         res.render("form");
