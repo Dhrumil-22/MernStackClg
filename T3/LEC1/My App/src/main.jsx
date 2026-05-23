@@ -9,7 +9,8 @@ import './index.css'
 // import Filter from './Filter.jsx'
 // import StudentStd from './StudentStd.jsx'
 // import List from './List.jsx'
-import Prop1 from './Prop1.jsx'
+// import Prop1 from './Prop1.jsx'
+import Example1 from './Example1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -21,6 +22,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Filter/> */}
     {/* <StudentStd/> */}
     {/* <List/> */}
-    <Prop1/>
+    {/* <Prop1/> */}
+    <Example1/>
   </StrictMode>,
 )
