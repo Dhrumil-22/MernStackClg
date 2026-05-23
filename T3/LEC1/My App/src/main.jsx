@@ -10,7 +10,9 @@ import './index.css'
 // import StudentStd from './StudentStd.jsx'
 // import List from './List.jsx'
 // import Prop1 from './Prop1.jsx'
-import Example1 from './Example1.jsx'
+// import Example1 from './Example1.jsx'
+// import ProductList from './ProductList.jsx'
+import Event from './Event.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -23,6 +25,8 @@ createRoot(document.getElementById('root')).render(
     {/* <StudentStd/> */}
     {/* <List/> */}
     {/* <Prop1/> */}
-    <Example1/>
+    {/* <Example1/> */}
+    {/* <ProductList/> */}
+    <Event/>
   </StrictMode>,
 )
