@@ -8,7 +8,8 @@ import './index.css'
 // import Map from './Map.jsx'
 // import Filter from './Filter.jsx'
 // import StudentStd from './StudentStd.jsx'
-import List from './List.jsx'
+// import List from './List.jsx'
+import Prop1 from './Prop1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Map/> */}
     {/* <Filter/> */}
     {/* <StudentStd/> */}
-    <List/>
+    {/* <List/> */}
+    <Prop1/>
   </StrictMode>,
 )
