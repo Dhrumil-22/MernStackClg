@@ -19,7 +19,8 @@ import './index.css'
 // import My from './Routing/My.jsx'
 // import US from './Ch8/US.jsx'
 // import US1 from './Ch8/US1.jsx'
-import US2 from './Ch8/US2.jsx'
+// import US2 from './Ch8/US2.jsx'
+import US3 from './Ch8/US3.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -41,7 +42,8 @@ createRoot(document.getElementById('root')).render(
     {/* <My/> */}
     {/* <US/> */}
     {/* <US1/> */}
-    <US2/>
+    {/* <US2/> */}
+    <US3/>
   </StrictMode>,
 )
 

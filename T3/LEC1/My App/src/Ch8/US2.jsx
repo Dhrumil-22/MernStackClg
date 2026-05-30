@@ -10,14 +10,24 @@ function US2(){
     const[color,setColor]=useState('red');
     const[hidetext,setHide]=useState('Reaact JS');
     const[buttontext,setButtontext]=useState('Hide');
+    const[text,setText]=useState('cursive');
+    // const[fontsize,setSize]=useState('16');
     function showhide(){
         if(buttontext==='Hide'){
             setButtontext('show')
             setHide('')
         }
         else{
-            setButtontext('hide')
+            setButtontext('Hide')
             setHide('React JS')
+        }
+    }
+    function fontChange(){
+        if(text==='cursive'){
+            setText('Times new roman')
+        }
+        else{
+           setText('cursive')
         }
     }
     function changeName(){
@@ -40,12 +50,14 @@ function US2(){
     }
     return(
         <div>
-            <h1 style={{color:color}}>{name}</h1>
+            <h1 style={{color:color,fontFamily:text}}>{name}</h1>
             <h1>{hidetext}</h1>
             <button onClick={changeName}>Text!</button><br></br>
             <button onClick={changeColor}>Change color!</button><br></br>
-            <button onClick={showhide}>Hide show!</button><br></br>
+            <button onClick={showhide}>{buttontext}</button><br></br>
+            <button onClick={fontChange}>Font Change</button><br></br>
         </div>
     )
 }
 export default US2;
+
