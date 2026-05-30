@@ -14,7 +14,9 @@ import './index.css'
 // import ProductList from './ProductList.jsx'
 // import Event from './Event.jsx'
 // import Event1 from './Event1.jsx'
-import Event2 from './Event2.jsx'
+// import Event2 from './Event2.jsx'
+// import Event3 from './Event3.jsx'
+import My from './Routing/My.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,6 +33,8 @@ createRoot(document.getElementById('root')).render(
     {/* <ProductList/> */}
     {/* <Event/> */}
     {/* <Event1/> */}
-    <Event2/>
+    {/* <Event2/> */}
+    {/* <Event3/> */}
+    <My/>
   </StrictMode>,
 )
