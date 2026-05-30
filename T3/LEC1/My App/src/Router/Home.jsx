@@ -5,3 +5,6 @@
 // also include link to product page.
 // The product page that displays 3 product info.(name,price and image) using props
 // when user clicks on product link, it should navigate to product page with 3 product info.
+
+// ch 7 react props child(how to display ni syntax) parent(data) ,react routing (import broweser),events(),map ,filter,list,key,single component
+// ch8 1.useState

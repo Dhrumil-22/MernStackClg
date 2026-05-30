@@ -16,7 +16,10 @@ import './index.css'
 // import Event1 from './Event1.jsx'
 // import Event2 from './Event2.jsx'
 // import Event3 from './Event3.jsx'
-import My from './Routing/My.jsx'
+// import My from './Routing/My.jsx'
+// import US from './Ch8/US.jsx'
+// import US1 from './Ch8/US1.jsx'
+import US2 from './Ch8/US2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -35,6 +38,10 @@ createRoot(document.getElementById('root')).render(
     {/* <Event1/> */}
     {/* <Event2/> */}
     {/* <Event3/> */}
-    <My/>
+    {/* <My/> */}
+    {/* <US/> */}
+    {/* <US1/> */}
+    <US2/>
   </StrictMode>,
 )
+
