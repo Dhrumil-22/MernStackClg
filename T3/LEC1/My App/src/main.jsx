@@ -20,7 +20,12 @@ import './index.css'
 // import US from './Ch8/US.jsx'
 // import US1 from './Ch8/US1.jsx'
 // import US2 from './Ch8/US2.jsx'
-import US3 from './Ch8/US3.jsx'
+// import US3 from './Ch8/US3.jsx'
+// import US4 from './Ch8/US4.jsx'
+// import Form1 from './Ch8/Form1.jsx'
+// import Form2 from './Ch8/Form2.jsx'
+// import UR from './Ch8/UR.jsx'
+import UR1 from './Ch8/UR1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -43,7 +48,12 @@ createRoot(document.getElementById('root')).render(
     {/* <US/> */}
     {/* <US1/> */}
     {/* <US2/> */}
-    <US3/>
+    {/* <US3/> */}
+    {/* <US4/> */}
+    {/* <Form1/> */}
+    {/* <Form2/> */}
+    {/* <UR/> */}
+    <UR1/>
   </StrictMode>,
 )
 
