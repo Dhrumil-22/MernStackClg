@@ -32,7 +32,8 @@ import './index.css'
 // import COMP1 from './Ch8/COMP1.jsx'
 // import UE1 from './Ch8/UE1.jsx'
 // import UE2 from './Ch8/UE2.jsx'
-import Axios from './Ch8/Axios.jsx'
+// import Axios from './Ch8/Axios.jsx'
+import Axios2 from './Ch8/Axios2.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -67,7 +68,8 @@ createRoot(document.getElementById('root')).render(
     {/* <COMP1/> */}
     {/* <UE1/> */}
     {/* <UE2/> */}
-    <Axios/>
+    {/* <Axios/> */}
+    <Axios2/>
   </StrictMode>
   
   ,
