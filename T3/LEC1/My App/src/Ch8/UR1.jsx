@@ -5,7 +5,7 @@
 import { useReducer } from "react";
 const initState = 0;
 function reducer(state,action){
-    if (action.type == 'incr'){
+    if (action.type === 'incr'){
         return state+1;
     }
 }

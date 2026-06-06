@@ -25,7 +25,14 @@ import './index.css'
 // import Form1 from './Ch8/Form1.jsx'
 // import Form2 from './Ch8/Form2.jsx'
 // import UR from './Ch8/UR.jsx'
-import UR1 from './Ch8/UR1.jsx'
+// import UR1 from './Ch8/UR1.jsx'
+// import UR2 from './Ch8/UR2.jsx'
+// import PC from './Ch8/PC.jsx'
+// import CP from './Ch8/CP.jsx'
+// import COMP1 from './Ch8/COMP1.jsx'
+// import UE1 from './Ch8/UE1.jsx'
+// import UE2 from './Ch8/UE2.jsx'
+import Axios from './Ch8/Axios.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -53,7 +60,16 @@ createRoot(document.getElementById('root')).render(
     {/* <Form1/> */}
     {/* <Form2/> */}
     {/* <UR/> */}
-    <UR1/>
-  </StrictMode>,
+    {/* <UR1/> */}
+    {/* <UR2/> */}
+    {/* <PC/> */}
+    {/* <CP/> */}
+    {/* <COMP1/> */}
+    {/* <UE1/> */}
+    {/* <UE2/> */}
+    <Axios/>
+  </StrictMode>
+  
+  ,
 )
 
