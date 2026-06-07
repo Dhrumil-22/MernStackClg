@@ -16,3 +16,18 @@ function Axios2(){
     )
 }
 export default Axios2;
+
+
+
+// ch 7 :
+//  simglle component
+// Map/filter,list/key
+// react props 2 file
+// events oncheng,onsubmit,and more 2
+// react rounting 4 file aema 2 react propes nu kaam kare 1 and last 
+
+
+
+// ch8:
+// usestate ,usereducer ,usecontext(length) 4 -5 more files,useeffect,fomrs(usestates),axios
+

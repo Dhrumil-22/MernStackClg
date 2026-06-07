@@ -33,7 +33,8 @@ import './index.css'
 // import UE1 from './Ch8/UE1.jsx'
 // import UE2 from './Ch8/UE2.jsx'
 // import Axios from './Ch8/Axios.jsx'
-import Axios2 from './Ch8/Axios2.jsx'
+// import Axios2 from './Ch8/Axios2.jsx'
+import Hospital from './Ch8/Hospital.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -69,7 +70,8 @@ createRoot(document.getElementById('root')).render(
     {/* <UE1/> */}
     {/* <UE2/> */}
     {/* <Axios/> */}
-    <Axios2/>
+    {/* <Axios2 /> */}
+    <Hospital />
   </StrictMode>
   
   ,
