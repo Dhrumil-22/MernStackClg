@@ -19,7 +19,3 @@ function StudentCard(){
     )
 }
 export default StudentCard;
-
-// create a react component named my profile in a react vite project.
-// the component should create a simple ui containing heading,by passing js expression(inline css),paragraph,list of skills, one image from assets folder and one button.
-// used external css anywhere 

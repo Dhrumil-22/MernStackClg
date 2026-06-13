@@ -39,41 +39,66 @@ import Hospital from './Ch8/Hospital.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
+    {/* =========== Single Component =========== */}
     {/* <Myapp/> */}
     {/* <StudentCard/> */}
     {/* <MyProfile/> */}
+
+    {/* =========== Map and Filter  =========== */}
     {/* <Map/> */}
     {/* <Filter/> */}
     {/* <StudentStd/> */}
     {/* <List/> */}
+    {/* =========== Props =========== */}
     {/* <Prop1/> */}
     {/* <Example1/> */}
     {/* <ProductList/> */}
+    {/* =========== Events =========== */}
     {/* <Event/> */}
     {/* <Event1/> */}
     {/* <Event2/> */}
     {/* <Event3/> */}
+    {/* =========== Routing =========== */}
     {/* <My/> */}
+    {/* =========== useState =========== */}
     {/* <US/> */}
     {/* <US1/> */}
     {/* <US2/> */}
     {/* <US3/> */}
     {/* <US4/> */}
+    {/* =========== Form with useState =========== */}
     {/* <Form1/> */}
     {/* <Form2/> */}
+    {/* =========== useReducer =========== */}
     {/* <UR/> */}
     {/* <UR1/> */}
     {/* <UR2/> */}
+    {/* =========== useContext =========== */}
     {/* <PC/> */}
     {/* <CP/> */}
     {/* <COMP1/> */}
+    {/* =========== useEffect =========== */}
     {/* <UE1/> */}
     {/* <UE2/> */}
+    {/* =========== Axios =========== */}
     {/* <Axios/> */}
     {/* <Axios2 /> */}
     <Hospital />
-  </StrictMode>
-  
-  ,
+  </StrictMode>,
 )
+
+
+// ch 7 :
+//  simglle component
+// Map/filter,list/key
+// react props 2 file
+// events oncheng,onsubmit,and more 2
+// react rounting 4 file aema 2 react propes nu kaam kare 1 and last 
+
+
+
+// ch8:
+// usestate ,usereducer ,usecontext(length) 4 -5 more files,useeffect,fomrs(usestates),axios
+
+
 
