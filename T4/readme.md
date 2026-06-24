@@ -276,5 +276,10 @@ abc> db.Student.updateOne({age:30},{$set:{name:'OPS'}},{upsert:true})
 }
 abc> db.Student.deleteOne({name:'abc'})
 { acknowledged: true, deletedCount: 1 }
+abc> db.Student.count({name:'def'})
+DeprecationWarning: Collection.count() is deprecated. Use countDocuments or estimatedDocumentCount.
+1
+abc> db.Student.find({name:'def'}).count()
+1
 abc>
 '''
