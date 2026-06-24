@@ -319,5 +319,16 @@ abc> db.Student.find().sort({age:-1})
   },
   { _id: ObjectId('6a3b5ae496090f3191abc116'), name: 'def', age: 18 }
 ]
+abc> db.Student.find().sort({age:-1}).limit(1)
+[ { _id: ObjectId('6a3b62cc6e31de2b12cde378'), age: 30, name: 'OPS' } ]
+abc> db.Student.find().sort({age:-1}).limit(1).skip(1)
+[
+  {
+    _id: ObjectId('6a3b5ae496090f3191abc115'),
+    name: 'xyz',
+    age: 22,
+    branch: 'CE'
+  }
+]
 abc>
 '''
