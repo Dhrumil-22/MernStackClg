@@ -330,5 +330,7 @@ abc> db.Student.find().sort({age:-1}).limit(1).skip(1)
     branch: 'CE'
   }
 ]
+abc>abc> db.Student.deleteMany({})
+{ acknowledged: true, deletedCount: 4 }
 abc>
 '''
