@@ -281,5 +281,6 @@ DeprecationWarning: Collection.count() is deprecated. Use countDocuments or esti
 1
 abc> db.Student.find({name:'def'}).count()
 1
-abc>
+abc> db.Student.countDocuments({name:'def'})
+1
 '''
