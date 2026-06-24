@@ -333,4 +333,15 @@ abc> db.Student.find().sort({age:-1}).limit(1).skip(1)
 abc>abc> db.Student.deleteMany({})
 { acknowledged: true, deletedCount: 4 }
 abc>
+
+
+
+================== QUE1 ====================
+1. create a database named "LJU" and collection named "student" having field name,age,std,percentage.
+2. insert 5 to 10 random documents.
+3. find name of all the studnets having age > 5.
+4. increse the standerd for all the students by 1.
+5. arrange all the records in dec. orger of age.
+6. show the name of the student who is oldest student among all.
+7. delete the record of student if std is 12.
 '''
